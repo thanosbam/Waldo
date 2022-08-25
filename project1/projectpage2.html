@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+    
+    height: 1580px;
+    width: 2480px;
+    margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("FAvY6x91.png");
+
+  /* Full height */
+  height: 100%; 
+  
+
+  
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.waldo {
+  position : absolute;
+  top: 40px; left: 2306px;
+  
+}
+img {
+    transition:transform 0.25s ease;
+}
+
+img:hover {
+    -webkit-transform:scale(1.2); /* or some other value */
+    transform:scale(1.2);
+    transition: .4s ease-out;
+    transition-delay: 2s;
+    
+}
+</style>
+</head>
+
+<script type="text/javascript">
+  function zoom() {
+      document.body.style.zoom = "65%" 
+  }
+</script>
+
+<body onload="zoom()">
+
+<div class="bg"></div>
+<img src="waldo2.png" class="waldo" alt="waldo" width="124" height="140">
+
+
+
+</body>
+</html>
+
