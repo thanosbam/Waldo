@@ -1,0 +1,34 @@
+body {
+    
+    height: 1580px;
+    width: 2054px;
+    margin: 0;
+} 
+
+.bg {
+  
+  background: url("c6morhS.jpeg");
+
+  
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.waldo {
+  position : absolute;
+  top: 279px; left: 939px;
+  
+}
+
+img {
+    transition:transform 0.25s ease;
+}
+
+img:hover {
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2);
+    transition: .4s ease-out;
+    transition-delay: 2s;
+    
+}

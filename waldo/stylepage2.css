@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body, html {
+body {
     
     height: 1580px;
     width: 2480px;
@@ -11,14 +6,10 @@ body, html {
 }
 
 .bg {
-  /* The image used */
+  
   background-image: url("FAvY6x91.png");
 
-  /* Full height */
   height: 100%; 
-  
-
-  
   background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
@@ -40,22 +31,3 @@ img:hover {
     transition-delay: 2s;
     
 }
-</style>
-</head>
-
-<script type="text/javascript">
-  function zoom() {
-      document.body.style.zoom = "65%" 
-  }
-</script>
-
-<body onload="zoom()">
-
-<div class="bg"></div>
-<img src="waldo2.png" class="waldo" alt="waldo" width="124" height="140">
-
-
-
-</body>
-</html>
-
