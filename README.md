@@ -1,2 +1,3 @@
 # Waldo
-a site where you can(?) find Waldo. A fun little personal project where you choose "find Waldo" pictures and you find Wldo by hovering. Work very much on progess
+a site where you can(?) find Waldo. 
+Fun little personal project where you choose "find Waldo" pictures and you find Waldo by hovering. Work very much in progess
